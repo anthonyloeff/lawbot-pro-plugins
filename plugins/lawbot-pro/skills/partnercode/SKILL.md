@@ -5,7 +5,7 @@ description: Haalt de persoonlijke actiecode van het kantoor op om LawBot Busine
 
 # Partnercode: LawBot Business aanbevelen
 
-Veel cliënten van het kantoor zijn MKB-ondernemers. LawBot Business is hun eigen juridische assistent (triage en advocaat-klare dossiers); die dossiers komen bij het kantoor goed voorbereid binnen.
+Veel cliënten van het kantoor zijn MKB-ondernemers. LawBot Business is de MKB-variant van Litic (triage en advocaat-klare dossiers); die dossiers komen bij het kantoor goed voorbereid binnen.
 
 ## Werkwijze
 

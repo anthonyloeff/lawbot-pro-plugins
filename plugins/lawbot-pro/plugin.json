@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "lawbot-pro",
-  "version": "1.0.0",
-  "description": "Nederlands juridisch onderzoek op officiële bronnen (rechtspraak, wetgeving op elke peildatum, tuchtrecht, EU-recht) met verifieerbare bronlinks. Vereist een bestaande LawBot Pro-licentie van Litic.",
+  "version": "1.0.1",
+  "description": "Nederlands juridisch onderzoek in officiële bronnen (rechtspraak, wetgeving actueel of op peildatum, tuchtrecht, EU-recht) met bronlinks. Vereist een bestaande LawBot Pro-licentie van Litic.",
   "author": {
     "name": "Litic",
     "email": "support@litic.ai",
@@ -25,9 +25,9 @@
       "interface": {
         "displayName": "LawBot Pro",
         "shortDescription": "Nederlands juridisch onderzoek",
-        "longDescription": "LawBot Pro is de juridische AI-onderzoeksassistent voor Nederlandse advocaten en juristen, gebouwd door Litic. De plugin doorzoekt rechtstreeks de officiële bronnen (rechtspraak.nl, wetten.overheid.nl, tuchtrecht.overheid.nl, EUR-Lex en de officiële citatiegraaf LiDO) en beantwoordt rechtsvragen uitsluitend op basis van live opgehaalde resultaten.\n\nGeen verzonnen vindplaatsen: ECLI's en artikelnummers komen alleen uit bron-output en elke verwijzing bevat een klikbare bron-URL, zodat verificatie seconden kost.\n\nZestien gereedschappen: jurisprudentie zoeken (semantisch en full-text), uitspraken volledig analyseren, wetsartikelen op elke peildatum (overgangsrecht), wetsgeschiedenis (Kamerstukken), tuchtrecht, EU-recht in de Nederlandse taalversie, rechtspraak per wetsartikel, feitelijke rechterprofielen met het officiële nevenbetrekkingenregister, juridisch webzoeken, webpagina's en PDF's als tekst, plus interviewmodus, documentanalyse, het opstellen van conceptstukken met bronverwijzingen, een waarmerk voor opgestelde stukken en een partnercode voor LawBot Business.\n\nVertrouwde commando's: W: (wetsartikel), J: (jurisprudentie), S: (uitspraak analyseren), R: (rechterprofiel), G: (webzoeken), URL: (pagina ophalen) en V5: (interview).\n\nPrivacy by design: de LawBot Pro-server slaat geen vragen, documenten of antwoorden op; verbruiksmeting is uitsluitend metadata en de infrastructuur draait in de EU.\n\nVoor het gebruik is een bestaande LawBot Pro-licentie nodig; dezelfde licentie werkt ook in Claude en Microsoft Word. Log in met het e-mailadres van je licentie of met je licentiesleutel. Meer informatie over LawBot Pro vind je op lawbot.nl.",
+        "longDescription": "LawBot Pro doet juridisch onderzoek in officiële Nederlandse en Europese rechtsbronnen, voor advocaten en juristen. De plugin van Litic zoekt rechtstreeks in rechtspraak.nl, wetten.overheid.nl, tuchtrecht.overheid.nl, EUR-Lex en de officiële citatiegraaf LiDO en gebruikt de opgehaalde resultaten als basis voor het antwoord.\n\nBij iedere gevonden uitspraak en ieder wetsartikel levert de plugin de officiële bron-URL mee, zodat je vindplaatsen zelf kunt controleren. De werkwijze is erop gericht ECLI's en artikelnummers uit de bron-output te halen en niet uit het geheugen van het model; controle door de jurist blijft nodig.\n\nZestien gereedschappen: jurisprudentie zoeken (semantisch en full-text), uitspraken analyseren, wetsartikelen actueel of op een eerdere peildatum (voor zover beschikbaar in het Basiswettenbestand), wetsgeschiedenis (Kamerstukken), tuchtrecht, EU-recht in de Nederlandse taalversie, rechtspraak per wetsartikel, rechterprofielen op basis van gepubliceerde uitspraken en het officiële nevenbetrekkingenregister, juridisch webzoeken, webpagina's en PDF's als tekst, plus interviewmodus, documentanalyse, conceptstukken met bronverwijzingen, een waarmerk voor opgestelde stukken en een partnercode voor LawBot Business.\n\nCommando's: W: (wetsartikel), J: (jurisprudentie), S: (uitspraak analyseren), R: (rechterprofiel), G: (webzoeken), URL: (pagina ophalen) en V5: (interview).\n\nGegevens: de LawBot Pro-server slaat geen vragen, documenten of antwoorden op; de verbruiksmeting gebruikt alleen metadata en de infrastructuur draait in de EU. Zie de privacyverklaring op lawbot.nl.\n\nVoor het gebruik is een bestaande LawBot Pro-licentie van Litic nodig. Log in met het e-mailadres van je licentie of met je licentiesleutel. Meer informatie op lawbot.nl.",
         "developerName": "Litic",
-        "category": "Productivity",
+        "category": "Education & Research",
         "capabilities": [
           "Wetsartikelen ophalen uit het Basiswettenbestand, actueel of op een historische peildatum",
           "Nederlandse rechtspraak doorzoeken (full-text en semantisch) met ECLI's en klikbare bronlinks",
@@ -36,16 +36,16 @@
           "Wetsgeschiedenis: memorie van toelichting en andere Kamerstukken",
           "Tuchtrechtspraak: advocatuur, gezondheidszorg, notariaat, deurwaarders, accountants",
           "EU-recht in het Nederlands: HvJ-EU-rechtspraak en EU-regelgeving",
-          "Feitelijke rechterprofielen met nevenbetrekkingen uit het officiële rechtersregister",
+          "Rechterprofielen met nevenbetrekkingen uit het officiële rechtersregister",
           "Juridisch webzoeken en webpagina's of PDF's als schone tekst ophalen",
           "Interviewmodus (V5:), documentanalyse en conceptstukken met bronverwijzingen",
           "Waarmerk (herkomst-code) voor opgestelde stukken en partnercode voor LawBot Business",
           "Licentiestatus en verbruik opvragen"
         ],
         "websiteURL": "https://lawbot.nl",
-        "supportURL": "https://lawbot.nl/contact",
-        "privacyPolicyURL": "https://lawbot.nl/privacy",
-        "termsOfServiceURL": "https://lawbot.nl/voorwaarden",
+        "supportURL": "https://lawbot.nl/contact/",
+        "privacyPolicyURL": "https://lawbot.nl/privacy/",
+        "termsOfServiceURL": "https://lawbot.nl/voorwaarden/",
         "defaultPrompt": [
           "W: 6:162 BW",
           "J: bestuurdersaansprakelijkheid bij selectieve betaling",
@@ -63,7 +63,7 @@
         "translations": {
           "en-US": {
             "subtitle": "Dutch legal research",
-            "description": "LawBot Pro is the legal AI research assistant for Dutch lawyers, built by Litic. It searches official Dutch and EU legal sources directly (case law, legislation at any reference date, parliamentary history, disciplinary and EU law) and answers strictly from live source output; every citation carries a clickable official source URL. The server stores no user content (metadata-only metering, EU infrastructure). Requires an existing LawBot Pro licence; the same licence also works in Claude and Microsoft Word. More at lawbot.nl."
+            "description": "LawBot Pro does legal research in official Dutch and EU legal sources, for lawyers and legal professionals. Built by Litic, it searches rechtspraak.nl, wetten.overheid.nl, tuchtrecht.overheid.nl, EUR-Lex and the official LiDO citation graph directly and bases its answers on the retrieved results; each source comes with its official URL so citations can be checked by the user. Sixteen tools: case law search, judgment analysis, legislation current or at an earlier reference date, parliamentary history, disciplinary law, EU law, judge profiles, legal web search, document analysis and drafting with references. The LawBot Pro server stores no questions, documents or answers; usage metering is metadata only, on EU infrastructure. Requires an existing LawBot Pro licence from Litic. More at lawbot.nl."
           }
         }
       }

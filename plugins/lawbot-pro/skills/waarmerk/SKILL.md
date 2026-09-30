@@ -5,7 +5,7 @@ description: Genereert of beheert een LawBot Pro-waarmerk (herkomst-code) voor e
 
 # Waarmerk: herkomst-code voor opgestelde stukken
 
-Het waarmerk bewijst de **herkomst** van een stuk (opgesteld bij een kantoor dat met LawBot Pro werkt, op een datum). Het is bewust geen inhouds-hash: de advocaat werkt het stuk daarna door in Word en de code blijft geldig. Stukken met een geldig waarmerk worden door LawBot Business (de assistent van MKB-ondernemers) herkend en met extra professionele egards behandeld.
+Het waarmerk maakt de **herkomst** van een stuk controleerbaar (opgesteld bij een kantoor dat met LawBot Pro werkt, op een datum). Het is bewust geen inhouds-hash: de advocaat werkt het stuk daarna door in Word en de code blijft geldig. Stukken met een geldig waarmerk worden door LawBot Business (de assistent van MKB-ondernemers) herkend en met extra professionele egards behandeld.
 
 ## Werkwijze
 

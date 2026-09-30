@@ -47,4 +47,4 @@ Herken prefixen ongeacht hoofdletters en spaties; alles na de dubbele punt is de
 
 ## Kanaal en vertrouwelijkheid
 
-Het gesprek loopt via de ChatGPT-omgeving van de gebruiker; de LawBot-server slaat nooit gespreksinhoud op en meet alleen metadata. Stuur geen cliëntgegevens, partijnamen of bedragen als zoekterm mee: abstraheer naar rechtsbegrippen.
+Het gesprek loopt via de chatomgeving van de gebruiker; de LawBot-server slaat nooit gespreksinhoud op en meet alleen metadata. Stuur geen cliëntgegevens, partijnamen of bedragen als zoekterm mee: abstraheer naar rechtsbegrippen.

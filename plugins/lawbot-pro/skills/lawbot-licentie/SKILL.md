@@ -11,7 +11,7 @@ Roep `licentie_status` aan en presenteer het resultaat menselijk: plan, status, 
 
 ## Verbinden (eerste gebruik)
 
-Elke advocaat werkt met een **eigen** LawBot Pro-licentie. Bij het eerste gebruik van een tool opent ChatGPT de LawBot-inlogpagina (portal.litic.ai):
+Elke advocaat werkt met een **eigen** LawBot Pro-licentie. Bij het eerste gebruik van een tool opent je chatomgeving de LawBot-inlogpagina (portal.litic.ai):
 1. Vul het e-mailadres van je licentie in en voer de code in die je per e-mail ontvangt (tien minuten geldig); of
 2. plak je licentiesleutel (begint met `lbp_`).
 Daarna is de plugin verbonden; de sessie loopt stilzwijgend door (verlengt zichzelf).
