@@ -1,6 +1,6 @@
 ---
 name: waarmerk
-description: Genereert of beheert een LawBot Pro-waarmerk (herkomst-code) voor een opgesteld stuk. MOET actief worden bij "waarmerk", "waarmerk-code", "herkomstcode", "code voor in het stuk", "waarmerk intrekken", en als afsluiting van een opgesteld stuk.
+description: Genereert of beheert een LawBot Pro-waarmerk (herkomst-code) voor een opgesteld stuk. MOET actief worden bij "waarmerk", "waarmerk-code", "herkomstcode", "code voor in het stuk", "mijn waarmerken", "waarmerk controleren", "waarmerk intrekken", en als afsluiting van een opgesteld stuk.
 ---
 
 # Waarmerk: herkomst-code voor opgestelde stukken
@@ -9,9 +9,9 @@ Het waarmerk maakt de **herkomst** van een stuk controleerbaar (opgesteld bij ee
 
 ## Werkwijze
 
-1. **Genereren**: roep de tool `waarmerk` aan (zonder argumenten of met actie `genereer`); je krijgt een code als `LBP-K7F2-9Q4X` met een plakregel.
+1. **Genereren**: roep de tool `waarmerk` aan (zonder argumenten); je krijgt een code als `LBP-K7F2-9Q4X` met een plakregel.
 2. **Plakken**: zet de plakregel onderaan het stuk, in de voettekst of onder de ondertekening: `LawBot Pro-waarmerk: LBP-XXXX-XXXX`.
-3. **Beheren**: actie `lijst` toont de eigen codes; `valideer` met code controleert de geldigheid.
+3. **Beheren**: de tool `waarmerk_lijst` toont de eigen codes; de tool `waarmerk_controleren` (met de code) zegt of een code bestaat en nog geldig is. Beide lezen alleen.
 4. **Intrekken**: alleen via de aparte tool `waarmerk_intrekken` (met de code), bijvoorbeeld bij een teruggetrokken stuk. Dit is definitief: doe het uitsluitend op uitdrukkelijk verzoek van de advocaat en bevestig vooraf welke code je intrekt.
 
 ## Uitleg aan de advocaat (kort)
