@@ -12,8 +12,8 @@ Roep `licentie_status` aan en presenteer het resultaat menselijk: plan, status, 
 ## Verbinden (eerste gebruik)
 
 Elke advocaat werkt met een **eigen** LawBot Pro-licentie. Bij het eerste gebruik van een tool opent je chatomgeving de LawBot-inlogpagina (portal.litic.ai):
-1. Vul je e-mailadres en je licentiesleutel (begint met `lbp_`) in; dan verbind je direct; of
-2. laat de sleutel leeg, dan krijg je een inlogcode per e-mail (tien minuten geldig).
+1. vul je licentiesleutel (begint met `lbp_`) in en kies **Inloggen met licentiesleutel**; dan verbind je direct; of
+2. vul je e-mailadres in en kies **Stuur inlogcode per e-mail**; je krijgt een code die tien minuten geldig is.
 Daarna is de plugin verbonden; de sessie loopt stilzwijgend door (verlengt zichzelf).
 
 ## Scenario's
