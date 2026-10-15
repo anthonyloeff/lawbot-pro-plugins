@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "lawbot-pro",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Nederlands juridisch onderzoek in officiële bronnen (rechtspraak, wetgeving actueel of op peildatum, tuchtrecht, EU-recht) met bronlinks. Vereist een bestaande LawBot Pro-licentie van Litic.",
   "author": {
     "name": "Litic",
@@ -44,7 +44,7 @@
         ],
         "websiteURL": "https://lawbot.nl",
         "supportURL": "https://lawbot.nl/contact/",
-        "privacyPolicyURL": "https://lawbot.nl/privacy/",
+        "privacyPolicyURL": "https://lawbot.nl/en/privacy-policy/",
         "termsOfServiceURL": "https://lawbot.nl/voorwaarden/",
         "defaultPrompt": [
           "W: 6:162 BW",
