@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "lawbot-pro",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Nederlands juridisch onderzoek in officiële bronnen (rechtspraak, wetgeving actueel of op peildatum, tuchtrecht, EU-recht) met bronlinks. Vereist een bestaande LawBot Pro-licentie van Litic.",
   "author": {
     "name": "Litic",
@@ -103,7 +103,7 @@
             }
           ]
         },
-        "demo_recording_url": "https://youtu.be/g989HlXSKg4",
+        "demo_recording_url": "https://youtu.be/B4Flm5Fm56o",
         "commerce": false,
         "commerce_description": "LawBot Pro sells nothing and processes no payments inside the plugin. A LawBot Pro licence is a precondition that lawyers obtain separately on lawbot.nl; the sign-in screen only accepts an existing licence. No payment or checkout flows through the plugin."
       },
