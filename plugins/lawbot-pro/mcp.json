@@ -3,7 +3,7 @@
   "mcpServers": {
     "lawbot": {
       "type": "streamable-http",
-      "url": "https://lawbot-bronnen.litic.ai/functions/v1/mcp-server/mcp"
+      "url": "https://lawbot-bronnen.litic.ai/functions/v1/mcp-server/directory/mcp"
     }
   }
 }

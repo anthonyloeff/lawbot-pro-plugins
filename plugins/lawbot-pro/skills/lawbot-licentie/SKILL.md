@@ -30,10 +30,9 @@ Daarna is de plugin verbonden; de sessie loopt stilzwijgend door (verlengt zichz
 | `W:` | wetsartikel (ook historisch) | `W: 6:162 BW` |
 | `J:` | jurisprudentie zoeken | `J: verjaring verborgen gebreken` |
 | `S:` | uitspraak volledig analyseren | `S: ECLI:NL:HR:2023:1371` |
-| `R:` | rechterprofiel | `R: J.A.R. van Eijsden` |
 | `G:` | juridisch webzoeken | `G: NOvA gedragsregel 12` |
 | `URL:` | webpagina of PDF ophalen | `URL: https://…` |
 | `V5:` | interview (vijf vragen), daarna advies | `V5: incassoadvies` |
-| natuurlijke taal | wetsgeschiedenis, tuchtrecht, EU-recht, rechtspraak bij een artikel, documentanalyse, stukken opstellen, waarmerk, partnercode | |
+| natuurlijke taal | wetsgeschiedenis, tuchtrecht, EU-recht, rechtspraak bij een artikel, documentanalyse, stukken opstellen, waarmerk | |
 
 Voor de volledige functietekst: haal onderdeel `functies` op met `lawbot_briefing` en toon die letterlijk.

@@ -1,6 +1,6 @@
 ---
 name: lawbot-werkwijze
-description: Werkwijze-anker van LawBot Pro (Litic). MOET actief worden bij elke Nederlandse juridische vraag zodra de LawBot Pro-plugin is geïnstalleerd, bij een mention van LawBot Pro en bij de tekstcommando's W:, J:, S:, R:, G:, URL: en V<n>: (ook de oude varianten Wettentool:, Jurisprudentietool:, Samenvattingtool:, Rechtertool:, Googletool:, Scrapingtool:). Borgt de bronregels (uitsluitend vindplaatsen uit tool-output, altijd bronlinks), haalt de actuele werkinstructies van de LawBot-server op en routeert naar de juiste werkstroom.
+description: Werkwijze-anker van LawBot Pro (Litic). MOET actief worden bij elke Nederlandse juridische vraag zodra de LawBot Pro-plugin is geïnstalleerd, bij een mention van LawBot Pro en bij de tekstcommando's W:, J:, S:, G:, URL: en V<n>: (ook de oude varianten Wettentool:, Jurisprudentietool:, Samenvattingtool:, Googletool:, Scrapingtool:). Borgt de bronregels (uitsluitend vindplaatsen uit tool-output, altijd bronlinks), haalt de actuele werkinstructies van de LawBot-server op en routeert naar de juiste werkstroom.
 ---
 
 # LawBot Pro: werkwijze
@@ -14,7 +14,7 @@ Roep bij het eerste juridische verzoek in een gesprek éénmaal de tool `lawbot_
 | onderdeel | inhoud |
 |---|---|
 | `cov` | verificatieprotocol voor elk inhoudelijk antwoord |
-| `formats` | vaste antwoordformats (jurisprudentielijst, uitspraaksamenvatting, wetsartikel, rechterprofiel, memo) |
+| `formats` | vaste antwoordformats (jurisprudentielijst, uitspraaksamenvatting, wetsartikel, memo) |
 | `interview` | protocol voor de interviewmodus (V<n>:) |
 | `functies` | de vaste tekst bij de vraag "wat kun je?" |
 | `commandos` | gebruiksregels per tool en de commando-aliassen |
@@ -35,7 +35,6 @@ Roep bij het eerste juridische verzoek in een gesprek éénmaal de tool `lawbot_
 | `W:` (Wettentool:) | wetsartikel, skill `wetten` |
 | `J:` (Jurisprudentietool:) | rechtspraak zoeken, skill `juridisch-onderzoek` |
 | `S:` (Samenvattingtool:), een los ECLI of een rechtspraak.nl-link | uitspraak analyseren, skill `uitspraak-analyse` |
-| `R:` (Rechtertool:) | rechterprofiel, skill `rechterprofiel` |
 | `G:` (Googletool:) | juridisch webzoeken, skill `juridisch-onderzoek` |
 | `URL:` (Scrapingtool:) | webpagina of PDF ophalen, skill `bron-ophalen` |
 | `V<n>:` | interviewmodus, skill `interview` |
